@@ -6,9 +6,9 @@ module.exports = {
     {
       resolve: 'gatsby-source-graphql',
       options: {
-        typeName: 'RMAPI',
-        fieldName: 'rickAndMorty',
-        url: 'https://rickandmortyapi.com/graphql',
+        typeName: 'DYNOS',
+        fieldName: 'dynos',
+        url: 'https://stg-apollo.dynos.io/gql',
       },
     },
   ],
